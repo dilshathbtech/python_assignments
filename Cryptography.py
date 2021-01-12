@@ -11,8 +11,7 @@ root = Tk()
 
 
 def encode(): 
-    a = var.get() 
-    #Ritesh 
+    a = var.get()
     ct = onetimepad.encrypt(a,"letupgrade") 
     print("Working",ct)  
     e2.delete(0,END) 
@@ -20,7 +19,6 @@ def encode():
 
 def decode(): 
     a = var2.get() 
-    #Ritesh 
     ct = onetimepad.decrypt(a,"letupgrade") 
     print("Working",ct)  
     e4.delete(0,END) 
